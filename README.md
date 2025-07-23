@@ -1,2 +1,48 @@
-# Job-Portal
-Welcome to online Job Portal. It provides facility to the Job Seeker to search for various jobs as per his qualification. Here Job Seeker can registered himself on the web portal and create his profile along with his educational information. Job Seeker can search various jobs and apply for the Job.  This Portal is also designed for the various employer who required to recruit employees in their organization. Employer can registered himself on the web portal and then he can upload information of various job vacancies in their organization. Employeer can view the applications of Job Seeker and send call latter to the job seekers.
+Job Portal 
+A simple Job Portal web application built using pure PHP, MySQL, HTML, CSS, and JavaScript (no frameworks used).
+
+Features
+- User Registration & Login (Job Seekers & Employers)
+- Job Posting by Employers
+- Job Search & Apply by Job Seekers
+- Admin Panel to manage users & jobs
+- Resume upload & download
+  
+Technologies Used
+- PHP 
+- MySQL
+- HTML5 / CSS3
+- JavaScript / jQuery 
+- Bootstrap 
+
+Installation Instructions
+1. Clone or Download the Project
+   bash
+   git clone https://github.com/ShabeehaMakam/Job-Portal
+   
+2. Import the Database
+   - Open phpmyadmin
+   - Create a DB 
+   - Import the SQL file from /database/job_portal.sql
+
+3. Configure Database Connection
+   - Go to /config/db.php
+     
+
+4. Run the Project
+   - Open the project folder in your browser via localhost  
+   - Example: http://localhost/job-portal
+
+Credentials
+- Admin: username:admin/ password: admin
+
+
+Folder Structure
+- /config – DB connection files
+- /admin – Admin dashboard
+- /employer – Employer panel
+- /seeker – Job seeker panel
+- /uploads – Resumes
+- /assets – CSS, JS, images
+
+
